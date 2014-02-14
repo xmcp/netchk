@@ -1,9 +1,9 @@
+@"%~dp0\cido" /sws 0
 @echo off
 cd /d "%~dp0"
 if exist "%tmp%\netchk.close" del "%tmp%\netchk.close">nul
-set v=2.3
+set v=2.4
 ctray /del
-cido /sws 0
 ping /n 1 /4 114.114.114.114>nul
 set /a nowel=1-%errorlevel%
 start /b cido /msg "Application started at %time%." "NetChk v%v%" 0

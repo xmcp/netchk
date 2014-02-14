@@ -4,7 +4,7 @@ cd /d "%~dp0"
 title NetChk killer v%v%
 if "%1"=="tray" goto tray
 mode con cols=45 lines=5
-echo  Killer v%v% - Support NetChk 2.0 to 2.2
+echo  Killer v%v% - Support NetChk 2.0 to 2.4
 echo  -------------------------------------------
 echo  NetChk will close in a few seconds ...
 echo.>"%tmp%\netchk.close"
